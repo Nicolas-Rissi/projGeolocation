@@ -24,8 +24,6 @@ function App() {
     var long = document.getElementById("longitude");
 
     setPosition([parseFloat(lati.value), parseFloat(long.value)]);
-
-    MapContainer.setView(position);
   }
   
   const customIcon = new Icon({
