@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.leaflet-container {
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+}
+
+.entrada{
+  position: absolute;
+  top: 80px;
+  left: 10px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.local{
+  width: 120px;
+  border: 1px solid #4682b4;
+  border-radius: 0;
+  border-right: none;
+  padding: 4px;
+  height: 32px;
+}
+
+.pesq{
+  height: 32px;
+  width: 32px;
+  padding: 3px;
+  background-color: #4682b4;
+  border: none;
+  border-radius: none;
+  color: #FFF;
+}
+.pesq:hover{
+  background-color: #4682b4;
+  cursor: pointer;
+}
